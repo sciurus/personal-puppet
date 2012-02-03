@@ -11,11 +11,11 @@ class apt {
   }
 
   file { '/etc/apt/sources.list.d/unstable.list':
-    source => 'puppet:///apt/unstable.list',
+    source => 'puppet:///modules/apt/unstable.list',
   }
 
  file { '/etc/apt/sources.list':
-   source => 'puppet:///apt/sources.list',
+   source => 'puppet:///modules/apt/sources.list',
  }
 
 }

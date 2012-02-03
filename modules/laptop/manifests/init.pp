@@ -8,7 +8,7 @@ class laptop {
 
   file { '/etc/default/acpi-support':
     ensure => present,
-    source => 'puppet:///laptop/acpi-support',
+    source => 'puppet:///modules/laptop/acpi-support',
   }
 
 }
