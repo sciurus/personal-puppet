@@ -1,6 +1,6 @@
 class laptop {
 
-  $software = [ 'acpid', 'apmd', 'acpi', 'acpi-support', 'pcmciautils', 'wicd', 'wicd-curses', 'wireless-tools', 'wpasupplicant', 'cpufrequtils', 'powertop', 'pm-utils' ]
+  $software = [ 'acpid', 'apmd', 'acpi', 'acpi-support', 'pcmciautils', 'wicd', 'wicd-curses', 'wireless-tools', 'wpasupplicant', 'powertop', 'pm-utils' ]
 
   package { $software:
     ensure => present,
