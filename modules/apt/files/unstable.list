@@ -1,0 +1,2 @@
+deb http://debian.uchicago.edu/debian unstable main
+deb-src http://debian.uchicago.edu/debian unstable main

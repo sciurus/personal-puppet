@@ -1,3 +1,5 @@
 node 'portege' {
-  notify { "I am running": }
+
+  include apt
+
 }

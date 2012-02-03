@@ -1,0 +1,5 @@
+deb http://debian.uchicago.edu/debian/ wheezy main non-free
+deb-src http://debian.uchicago.edu/debian/ wheezy main non-free
+
+deb http://security.debian.org/ wheezy/updates main non-free
+deb-src http://security.debian.org/ wheezy/updates main non-free
