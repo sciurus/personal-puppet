@@ -1,0 +1,3 @@
+PUppet configuration for my personal machines running debian testing/unstable.
+
+sudo puppet apply --modulepath ./modules/ manifests/site.pp
