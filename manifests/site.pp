@@ -1,3 +1,6 @@
 import "nodes"
 
-Package { require => Class['apt'] }
+Package {
+  require => Class['apt'],
+  ensure => present,
+}
