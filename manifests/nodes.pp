@@ -5,7 +5,7 @@ node 'portege' {
   class { user: name => 'brian' }
 }
 
-node 'triangle' {
+node '1420' {
   include apt
   include laptop
   include software
