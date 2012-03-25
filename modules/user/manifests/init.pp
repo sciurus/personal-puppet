@@ -7,4 +7,13 @@ class user($name='brian') {
     groups => ['sudo', 'lpadmin'],
   }
 
+  $alterego = $name ? {
+    'brian'  => 'bdp',
+    'bdp' => 'brian',
+  }
+
+  file { "/home/$alterego":
+    ensure => "/home/$name",
+  }
+
 }
