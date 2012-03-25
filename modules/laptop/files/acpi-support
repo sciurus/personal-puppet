@@ -49,6 +49,9 @@ LID_SLEEP=true
 # "xset", "xrandr" and "vbetool".
 DISPLAY_DPMS=xset
 
+# xrandr needs the outout device to be named
+XRANDR_OUTPUT=LVDS
+
 # vbetool can switch off/on the display even if no user is logged in. However,
 # there are systems that do not reset the display when coming out of suspend,
 # so that the screen remains dark. Unable this option to switch off the display
