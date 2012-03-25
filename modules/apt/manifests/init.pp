@@ -14,8 +14,8 @@ class apt {
     source => 'puppet:///modules/apt/unstable.list',
   }
 
- file { '/etc/apt/sources.list':
-   source => 'puppet:///modules/apt/sources.list',
- }
+  file { '/etc/apt/sources.list':
+    source => 'puppet:///modules/apt/sources.list',
+  }
 
 }

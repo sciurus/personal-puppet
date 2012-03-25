@@ -2,7 +2,7 @@ import 'nodes'
 
 Package {
   require => Class['apt'],
-  ensure => present,
+  ensure  => present,
 }
 
 File {

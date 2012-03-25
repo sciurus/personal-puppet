@@ -1,5 +1,5 @@
 class software::support {
-  # useful support libraries and programs 
+  # useful support libraries and programs
 
   package { 'firmware-linux': }
 
@@ -7,6 +7,6 @@ class software::support {
 
   package { ['hunspell', 'hunspell-en-us', 'enchant']: }
 
-  package { ['openjdk-6-jre']: }
+  package { 'openjdk-6-jre': }
 
 }
