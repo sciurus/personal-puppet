@@ -16,5 +16,6 @@ node '1420' {
 node 'date.ctegd.uga.edu' {
   include apt
   include software
+  include apticron
   class { user: name => 'bdp' }
 }
