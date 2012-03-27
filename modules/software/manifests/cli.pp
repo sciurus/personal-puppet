@@ -2,6 +2,7 @@ class software::cli {
   # cli apps
 
   $cli=[
+    'ack-grep',
     'apg',
     'apt-file',
     'apt-rdepends',

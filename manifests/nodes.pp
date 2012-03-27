@@ -5,7 +5,7 @@ node 'portege' {
   class { user: name => 'brian' }
 }
 
-node 'triangle' {
+node '1420' {
   include apt
   include laptop
   include software
@@ -16,5 +16,6 @@ node 'triangle' {
 node 'date.ctegd.uga.edu' {
   include apt
   include software
+  include apticron
   class { user: name => 'bdp' }
 }
