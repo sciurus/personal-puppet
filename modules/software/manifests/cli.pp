@@ -30,5 +30,6 @@ class software::cli {
   ]
 
   package { $cli: }
+  package { ['texlive', 'texlive-latex-extra', 'latex-beamer', 'latex-xcolor']: }
 
 }
