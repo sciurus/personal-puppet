@@ -22,4 +22,6 @@ class software::gui {
   package { 'wireshark': }
 
   package { ['xarchiver', 'arj', 'bzip2', 'rpm', 'p7zip-full', 'unzip', 'zip', 'lha', 'unrar']: }
+
+  package { ['freerdp-x11', 'libfreerdp-plugins-standard']: }
 }
