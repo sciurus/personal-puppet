@@ -5,4 +5,6 @@ class software::development {
 
   package { 'python-pip': }
 
+  package { 'puppet-lint': }
+
 }
