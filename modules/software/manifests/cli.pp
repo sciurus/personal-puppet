@@ -21,6 +21,7 @@ class software::cli {
     'rsnapshot',
     'rsync',
     'screen',
+    'smem',
     'sshuttle',
     'subversion',
     'strace',
