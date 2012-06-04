@@ -7,7 +7,7 @@ class apt {
   }
 
   file { '/etc/apt/apt.conf.d/00defaultrelease':
-    content => ' APT::Default-Release "testing";',
+    content => ' APT::Default-Release "wheezy";',
   }
 
   file { '/etc/apt/sources.list.d/unstable.list':
