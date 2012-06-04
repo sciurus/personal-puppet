@@ -3,7 +3,9 @@ class software::development {
 
   package { ['cpanminus', 'libperl-critic-perl', 'libdevel-repl-perl', 'perlbrew', 'perltidy']: }
 
-  package { 'python-pip': }
+  package { ['ipython', 'python-pip']: }
+
+  package { 'ruby-wirble': }
 
   package { 'puppet-lint': }
 

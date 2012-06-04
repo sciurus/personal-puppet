@@ -21,6 +21,7 @@ class software::cli {
     'rsnapshot',
     'rsync',
     'screen',
+    'smem',
     'sshuttle',
     'subversion',
     'strace',
@@ -31,6 +32,6 @@ class software::cli {
   ]
 
   package { $cli: }
-  package { ['texlive', 'texlive-latex-extra', 'latex-beamer', 'latex-xcolor']: }
+  package { ['texlive', 'texlive-latex-extra', 'texlive-fonts-extra', 'latex-beamer', 'latex-xcolor']: }
 
 }
