@@ -17,11 +17,12 @@ class software::gui {
 
   package { ['pidgin', 'pidgin-libnotify']: }
 
+  package { ['remmina', 'remmina-plugin-rdp', 'remmina-plugin-vnc']: }
+
   package { 'vim-gtk': }
 
   package { 'wireshark': }
 
   package { ['xarchiver', 'arj', 'bzip2', 'rpm', 'p7zip-full', 'unzip', 'zip', 'lha', 'unrar']: }
 
-  package { ['freerdp-x11', 'libfreerdp-plugins-standard']: }
 }
